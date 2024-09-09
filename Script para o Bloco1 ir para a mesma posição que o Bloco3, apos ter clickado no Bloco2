@@ -1,0 +1,7 @@
+Local Bloco1 = Script.parent.Bloco1
+Local Bloco2 = Script.parent.Bloco2
+Local Bloco3 = Script.parent.Bloco3
+Local function () clicado
+       Bloco1.position = Bloco3.position
+end)
+Bloco2.Click.Mouseclick:connect(clicado)
